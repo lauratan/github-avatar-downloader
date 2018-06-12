@@ -10,5 +10,9 @@ This program should be executed from the command line, in the following manner:
 
 `node download_avatars.js jQuery jQuery`
 
-If no GitHub repo or owner was given, it should return an Error. 
+If no GitHub repo name or owner was given, it should return following error: Error! Please enter repo owner and repo name. 
+
+## Dependencies
+
+Request - version 2.87.0
 

@@ -22,7 +22,7 @@ function getRepoContributors(repoOwner, repoName, cb) {
 
 getRepoContributors(process.argv[2], process.argv[3], function(err, result) {
     if (!process.argv[2] || !process.argv[3]){
-        console.log("Error! Please enter repo owner and repo name");
+        console.log("Error! Please enter repo owner and repo name.");
         return;
     }
     if (err){
